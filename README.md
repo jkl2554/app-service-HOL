@@ -4,7 +4,7 @@ App Service HOL
 - [Azure Portal](https://portal.azure.com/)에 접속할 수 있는 계정 및 사용할 수 있는 구독([Azure Pass](https://www.microsoftazurepass.com/))
 - [git](https://git-scm.com/downloads)
 - [File Zilla Client](https://filezilla-project.org/download.php?type=client)
-- [샘플 리포지토리](https://github.com/Azure-Samples/laravel-tasks) 복제 혹은 저장  
+- [샘플 리포지토리](https://github.com/Azure-Samples/laravel-tasks) 복제 혹은 다운로드  
 `git clone https://github.com/Azure-Samples/laravel-tasks`
 ## HOL 목차
 
