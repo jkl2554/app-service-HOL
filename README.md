@@ -17,7 +17,7 @@ App Service HOL
     [1.6. 샘플 앱 빌드](#16-샘플-앱-빌드)  
     [1.7. 앱 구성 설정](#17-앱-구성-설정)  
 
-[2. Production 구성](#2-Production-구성)  
+[2. Production App에 DB 구성](#2-Production-App에-DB-구성)  
 >   [2.1 배포 슬롯 생성](#21-배포-슬롯-생성)  
     [2.2 Production DB 생성](#22-Production-DB-생성)  
     [2.3 앱 구성으로 Production DB 연결](#23-앱-구성으로-Production-DB-연결)  
@@ -190,7 +190,7 @@ App Service HOL
 ### 인터넷 브라우저에서 배포한 앱 확인
 ![앱 확인](/img/1.7-03.png "앱 확인")  
   
-# 2. Production 구성
+# 2. Production App에 DB 구성
 ## 2.1 배포 슬롯 생성
 ### **위치 : `<Your Web App>`**
 ### 배포 - 배포 슬롯 블레이즈
