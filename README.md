@@ -367,7 +367,7 @@ App Service HOL
 # 3. Visual Studio Code & App Service
 ### **위치 : FileZilla - FTP Connect `<Your Web App>`**
 ### Production App 파일 내려받기 작업
-- `<Your Web App>`에 FTP로 연결해 빌드된 App파일을 저장한다(`<production app>`)  
+- `<Your Web App>`에 FTP로 연결해 빌드된 App을 저장한다(`<production app>`)  
   
     ![production app 내려받기](/img/3.1-01.png "production app 내려받기")    
 ## 3.1 Visual Studio Code를 통해 배포 슬롯에 배포
