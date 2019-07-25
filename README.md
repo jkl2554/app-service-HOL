@@ -1,5 +1,12 @@
 App Service HOL
 ===================
+## 시나리오
+  ### **시나리오 1** - HOL 1, 2, 3
+  ![웹앱 시나리오1](/img/시나리오1.png "시나리오 1")  
+  ### **시나리오 2** - HOL 4
+  ![웹앱 시나리오2](/img/시나리오2.png "시나리오 2")  
+  ### **시나리오 3** - HOL 5
+  ![웹앱 시나리오3](/img/시나리오3.png "시나리오 3")  
 ## HOL 준비 사항
 - [Azure Portal](https://portal.azure.com/)에 접속 및 리소스를 생성할 수 있는 구독([Azure Pass](https://www.microsoftazurepass.com/))
 - [Visual Studio Code 설치](https://code.visualstudio.com/)
