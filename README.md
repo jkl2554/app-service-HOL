@@ -289,7 +289,7 @@ App Service HOL
     ![Add DB connection string](/img/2.3-02.png "Add DB connection string")
 - 응용 프로그램 설정 - 고급 편집
     - 아래와 같이 상단에 `<connecion json>`내용 추가
-```json
+```
 [
     <connection json>
     
