@@ -122,7 +122,7 @@ App Service HOL
 - 아래 명령으로 git 배포 수행
     ```
     git remote add azure <Git Clone URI>
-    git add. -f
+    git add . -f
     git commit -m "App Push"
     git push azure master
     ```
