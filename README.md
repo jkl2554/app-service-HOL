@@ -462,7 +462,7 @@ Route::post('/task/{id}', function ($id) {
     php artisan make:migration add_complete_column --table=tasks 
     Created Migration: 2019_07_22_075436_add_complete_column 
     ```
-    ** 생성된 Migration 을 편의상 `<migration>`으로 표기  
+    ** 위의 `Created Migration` 을 편의상 `<migration>`으로 표기  
   
 ### **위치 : Visual Studio Code - Azure - App Service**
 ### Visual Studio Code를 통한 Web App 코드 수정
