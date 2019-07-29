@@ -543,6 +543,12 @@ php artisan migrate
       
 # 4. Traffic Manager
 ## 4.1 앱 복제를 통해 다른 지역에 배포
+### **위치 : `<Your Web App>` - 개요**
+### Web App 중지작업 수행
+- Web App 복제작업을 원활하게 하기 위해서 Web App 중단  
+  
+    ![Stop Web App](/img/4.1-01.png "staging slot app")  
+  
 ### **위치 : `<Your Web App>` - 개발도구 - 앱 복제**
 ### Web App 복제 작업 수행
 - 앱 이름 : `<Your Web App>`cus (`<Clone Web App>`)
@@ -554,6 +560,11 @@ php artisan migrate
         - 가격 책정 계층 : P1v2  
     
 ![Clone App](/img/4.1-02.png "Clone App")  
+    
+### **위치 : `<Your Web App>` - 개요 & `<Clone Web App>` - 개요**
+### Web App 시작 작업 수행
+![Start Web Apps](/img/4.1-03.png "Start Web Apps")  
+   
 ## 4.2 Traffic Manager 생성
 ### **위치 : Azure Portal 메인 - 리소스 만들기 - traffic manager profile 검색 - 트래픽 관리자 프로필 생성**
 ### Traffic Manager 프로필 생성 작업 수행 
