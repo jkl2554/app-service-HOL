@@ -552,6 +552,7 @@ php artisan migrate
         - 이름 : CUS-plan
         - 위치 : Central US
         - 가격 책정 계층 : P1v2  
+*앱 복제가 정상적으로 작동하지 않을 경우 [앱 백업](https://docs.microsoft.com/ko-kr/azure/app-service/manage-backup) & [앱 복원](https://docs.microsoft.com/ko-kr/azure/app-service/web-sites-restore) 사용 필요
     
 ![Clone App](/img/4.1-02.png "Clone App")  
 ## 4.2 Traffic Manager 생성
