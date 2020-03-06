@@ -552,9 +552,11 @@ php artisan migrate
         - 이름 : CUS-plan
         - 위치 : Central US
         - 가격 책정 계층 : P1v2  
-*앱 복제가 정상적으로 작동하지 않을 경우 [앱 백업](https://docs.microsoft.com/ko-kr/azure/app-service/manage-backup) & [앱 복원](https://docs.microsoft.com/ko-kr/azure/app-service/web-sites-restore) 사용 필요
-    
+   
 ![Clone App](/img/4.1-02.png "Clone App")  
+
+*앱 복제가 정상적으로 작동하지 않을 경우 [앱 백업](https://docs.microsoft.com/ko-kr/azure/app-service/manage-backup) & [앱 복원](https://docs.microsoft.com/ko-kr/azure/app-service/web-sites-restore) 사용 필요   
+
 ## 4.2 Traffic Manager 생성
 ### **위치 : Azure Portal 메인 - 리소스 만들기 - traffic manager profile 검색 - 트래픽 관리자 프로필 생성**
 ### Traffic Manager 프로필 생성 작업 수행 
