@@ -462,7 +462,7 @@ Route::post('/task/{id}', function ($id) {
     php artisan make:migration add_complete_column --table=tasks 
     Created Migration: 2019_07_22_075436_add_complete_column 
     ```
-    ** 위의 `Created Migration` 을 편의상 `<migration>`으로 표기  
+    ** 생성된 Migration 을 편의상 `<migration>`으로 표기  
   
 ### **위치 : Visual Studio Code - Azure - App Service**
 ### Visual Studio Code를 통한 Web App 코드 수정
@@ -543,6 +543,12 @@ php artisan migrate
       
 # 4. Traffic Manager
 ## 4.1 앱 복제를 통해 다른 지역에 배포
+### **위치 : `<Your Web App>` - 개요**
+### Web App 중지작업 수행
+- Web App 복제작업을 원활하게 하기 위해서 Web App 중단  
+  
+    ![Stop Web App](/img/4.1-01.png "staging slot app")  
+  
 ### **위치 : `<Your Web App>` - 개발도구 - 앱 복제**
 ### Web App 복제 작업 수행
 - 앱 이름 : `<Your Web App>`cus (`<Clone Web App>`)
@@ -552,11 +558,13 @@ php artisan migrate
         - 이름 : CUS-plan
         - 위치 : Central US
         - 가격 책정 계층 : P1v2  
-   
+    
 ![Clone App](/img/4.1-02.png "Clone App")  
-
-*앱 복제가 정상적으로 작동하지 않을 경우 [앱 백업](https://docs.microsoft.com/ko-kr/azure/app-service/manage-backup) & [앱 복원](https://docs.microsoft.com/ko-kr/azure/app-service/web-sites-restore) 사용 필요   
-
+    
+### **위치 : `<Your Web App>` - 개요 & `<Clone Web App>` - 개요**
+### Web App 시작 작업 수행
+![Start Web Apps](/img/4.1-03.png "Start Web Apps")  
+   
 ## 4.2 Traffic Manager 생성
 ### **위치 : Azure Portal 메인 - 리소스 만들기 - traffic manager profile 검색 - 트래픽 관리자 프로필 생성**
 ### Traffic Manager 프로필 생성 작업 수행 
